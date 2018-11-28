@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!--<property name="connection.url">jdbc:mysql://localhost:3306/yueke</property>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>-->
+        <mapping class="com.qy.domain.Clazz"/>
+        <mapping class="com.qy.domain.Corsourl"/>
+        <mapping class="com.qy.domain.Course"/>
+        <mapping class="com.qy.domain.Disuss"/>
+        <mapping class="com.qy.domain.Hyujia"/>
+        <mapping class="com.qy.domain.Master"/>
+        <mapping class="com.qy.domain.Notice"/>
+        <mapping class="com.qy.domain.Runying"/>
+        <mapping class="com.qy.domain.Teacher"/>
+        <mapping class="com.qy.domain.User"/>
+        <mapping class="com.qy.domain.Username"/>
+        <mapping class="com.qy.domain.Vipvard"/>
+        <mapping class="com.qy.domain.York"/>
+        <!-- <property name="connection.username"/> -->
+        <!-- <property name="connection.password"/> -->
+
+        <!-- DB schema will be updated if needed -->
+        <!-- <property name="hbm2ddl.auto">update</property> -->
+    </session-factory>
+</hibernate-configuration>
